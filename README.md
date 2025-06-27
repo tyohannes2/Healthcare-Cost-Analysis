@@ -29,7 +29,7 @@ To identify how average Medicare payments vary by state and highlight any potent
 
 ## Sample Output
 
-![Average Medicare Payment by State](https://github.com/tyohannes2/healthcare-cost-analysis/blob/main/Average_Medicare_Payment_by_State_2023.png)
+[![Average Medicare Payment by State](https://github.com/tyohannes2/healthcare-cost-analysis/blob/main/Average_Medicare_Payment_by_State_2023.png)](https://github.com/tyohannes2/Healthcare-Cost-Analysis/blob/main/Average%20Medicare%20Payment%20by%20State%202023.png)
 
 
 ## 📁 Data Source
