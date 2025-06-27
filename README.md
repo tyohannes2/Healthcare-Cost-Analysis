@@ -18,7 +18,7 @@ To identify how average Medicare payments vary by state and highlight any potent
 - ✅ Uses Python for data wrangling and analysis
 
 
-## 🛠️ Tools Used
+## Tools Used
 
 - Python 3
 - pandas
@@ -27,7 +27,7 @@ To identify how average Medicare payments vary by state and highlight any potent
 - Public CMS dataset
 
 
-## 📈 Sample Output
+## Sample Output
 
 ![Average Medicare Payment by State](avg_medicare_payment_by_state.png)
 
