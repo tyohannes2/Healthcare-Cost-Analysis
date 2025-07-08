@@ -1,75 +1,51 @@
-# Medicare Cost Analysis by State (2023)
+# 🏥 Medicare Cost Analysis Projects
 
-This project analyzes public Medicare Provider Utilization and Payment data from the Centers for Medicare & Medicaid Services (CMS) to compare **Average Medicare Payments** across U.S. states.
-
-It uses Python libraries **pandas** and **matplotlib**, and is fully built in **Google Colab**. This project is part of my data portfolio to demonstrate real-world skills in public health data analysis and visualization.
-
-
-## Objective
-
-To identify how average Medicare payments vary by state and highlight any potential trends or cost disparities in healthcare reimbursement across the U.S.
-
-
-## Key Features
-
-- ✅ Filters dataset to only include the 50 U.S. states + D.C.
-- ✅ Calculates average Medicare payment per state
-- ✅ Creates a clear bar chart visualization of state-level averages
-- ✅ Uses Python for data wrangling and analysis
-
-
-## Tools Used
-
-- Python 3
-- pandas
-- matplotlib
-- Google Colab
-- Public CMS dataset
-
-
-## Sample Output
-
-[![Average Medicare Payment by State](https://github.com/tyohannes2/healthcare-cost-analysis/blob/main/Average_Medicare_Payment_by_State_2023.png)](https://github.com/tyohannes2/Healthcare-Cost-Analysis/blob/main/Average%20Medicare%20Payment%20by%20State%202023.png)
-
-
-## Data Source
-
-[CMS.gov - Medicare Provider Utilization and Payment Data](https://data.cms.gov/)
-
-
-# Medicare Cost Analysis — Regression Model
-
-This project analyzes Medicare provider cost data using Python and linear regression.
-
-## Project Summary
-We explored the relationship between:
-- **Average Submitted Charge** (`Avg_Sbmtd_Chrg`)
-- **Total Services Provided** (`Tot_Srvcs`)
-  
-...to predict:
-- **Average Medicare Allowed Amount** (`Avg_Mdcr_Alowd_Amt`)
-
-### Key Insights
-- For every $1 billed, Medicare pays about **$0.17**
-- Each additional service very slightly **lowers** the average payment
-- The model explains about **59%** of payment variation
-
-### Files
-- `Medicare_Regression_Project.ipynb`: Contains full code, model, and results
+This repository contains multiple projects analyzing Medicare provider data using Python and data science techniques.
 
 ---
 
-## Skills Used
-- Data cleaning (Pandas)
-- Regression modeling (Scikit-Learn)
-- Data visualization (Matplotlib/Seaborn)
-- Git & GitHub
+## 📊 Project 1: State-Level Medicare Cost Analysis
+
+**Goal:** Compare average Medicare payments across U.S. states.
+
+### ✅ Skills Used
+- Data Cleaning (Pandas)
+- Grouping & Aggregation
+- Bar Chart Visualization
+- Geographic Filtering (excludes non-states)
+
+### 🔍 Key Insight
+States vary significantly in their average Medicare allowed amounts. This could reflect differences in provider behavior, patient demographics, or cost of living.
+
+📁 File: `medicare_state_analysis.ipynb`
 
 ---
 
-## Future Work
-We plan to test other models like:
-- Poisson Regression
-- Logarithmic Regression
-- Geographic clustering (state-level cost trends)
+## 📈 Project 2: Linear Regression Modeling
 
+**Goal:** Predict the Medicare allowed amount based on total services and submitted charges.
+
+### ✅ Skills Used
+- Regression Modeling (Scikit-Learn)
+- Model Evaluation (R², MSE)
+- Feature Engineering
+- Data Visualization
+
+### 🔍 Key Findings
+- 💲 Medicare pays about **$0.17** per dollar billed on average
+- ➖ More services are weakly associated with slightly lower payments
+- 📊 Model explains **59%** of variance in payments
+
+📁 File: `Medicare_Regression_Project.ipynb`
+
+---
+
+## 📌 Data Source
+Data from [Centers for Medicare & Medicaid Services (CMS)](https://data.cms.gov/).
+
+---
+
+## 🚀 Next Steps
+- Add Poisson or Logarithmic Regression
+- Cluster cost patterns by region
+- Build a dashboard or app interface
