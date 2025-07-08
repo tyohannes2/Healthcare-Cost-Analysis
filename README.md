@@ -17,7 +17,7 @@ This repository contains multiple projects analyzing Medicare provider data usin
 ### 🔍 Key Insight
 States vary significantly in their average Medicare allowed amounts. This could reflect differences in provider behavior, patient demographics, or cost of living.
 
-📁 Files: https://github.com/tyohannes2/Healthcare-Cost-Analysis/blob/main/Average%20Medicare%20Payment%20by%20State%202023.png & https://github.com/tyohannes2/Healthcare-Cost-Analysis/blob/main/Medicaid.ipynb
+📁 Files: [Medicaid.ipynb] (./Medicaid.ipynb)
 
 ---
 
